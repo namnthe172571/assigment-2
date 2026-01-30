@@ -2,8 +2,11 @@
     switch (sign) {
         case PLUS:
             return arg1 + arg2;
+        case MINUS:
+            return arg1 - arg2;
         default:
             break;
     }
     return 0d;
 }
+
