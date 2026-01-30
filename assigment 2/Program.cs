@@ -8,6 +8,8 @@ private Double calculate(SIGN sign, Double arg1, Double arg2)
     {
         case PLUS:
             result = arg1 + arg2;
+        case MINUS:
+            result = arg1 - arg2;
             break;
     }
     return result;
