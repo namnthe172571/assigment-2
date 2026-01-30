@@ -5,6 +5,8 @@
                 throw new ArithmeticException("Cannot divide by zero");
             }
             return arg1 / arg2;
+        case MULTIPLY:
+            return arg1 * arg2;
         default:
             break;
     }
