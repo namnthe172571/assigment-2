@@ -10,6 +10,8 @@ private Double calculate(SIGN sign, Double arg1, Double arg2)
             result = arg1 + arg2;
         case MINUS:
             result = arg1 - arg2;
+        case DIVIDE:
+            result = arg1 / arg2;
             break;
     }
     return result;
