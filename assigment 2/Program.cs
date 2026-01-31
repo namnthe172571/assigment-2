@@ -1,20 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-private Double calculate(SIGN sign, Double arg1, Double arg2)
-{
-    Double result = 0;
-    switch (sign)
-    {
+private Double calculate(SIGN sign, Double arg1, Double arg2) {
+    switch (sign) {
         case PLUS:
-            result = arg1 + arg2;
+            return arg1 + arg2;
         case MINUS:
-            result = arg1 - arg2;
-        case DIVIDE:
-            result = arg1 / arg2;
+            return arg1 - arg2;
         case MULTIPLY:
-            result = arg1 * arg2;
+            return arg1 * arg2;
+        default:
             break;
     }
-    return result;
+    return 0d;
 }
